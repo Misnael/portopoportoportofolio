@@ -1,0 +1,54 @@
+.toptopbar {
+    font-family: monospace;
+    height: 5vw;
+    width: 100vw;
+    background-color: rgb(129, 19, 79);
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.useles{
+    width: 50vw;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vh;
+    height: 7vh;
+    width: 16vw;
+    border-radius: 5px;
+    background-color: rgb(100, 2, 56);
+}
+
+.port {
+    border-radius: 5px;
+    font-size: large;
+    font-family: monospace;
+    background-color: rgb(100, 2, 56);
+    border: 0;
+    height: 5vh;
+    width: 5vw;
+}
+
+.abt {
+    border-radius: 5px;
+    font-size: large;
+    font-family: monospace;
+    background-color: rgb(100, 2, 56);
+    border: 0;
+    height: 5vh;
+    width: 5vw;
+}
+
+.cont {
+    border-radius: 5px;
+    font-size: large;
+    font-family: monospace;
+    background-color: rgb(100, 2, 56);
+    border: 0;
+    height: 5vh;
+    width: 5vw;
+}
