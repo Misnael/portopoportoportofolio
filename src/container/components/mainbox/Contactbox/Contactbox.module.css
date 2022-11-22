@@ -1,0 +1,28 @@
+.main {
+    height: 89vh;
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 11%;
+}
+
+.content {
+    margin-left: 1rem;
+    border-radius: 15px;
+    border: solid 1px;
+    border-color: rgba(250, 0, 117, 0.616);
+    height: 90%;
+    width: 20%;
+    background-color: rgb(86, 1, 48);
+}
+
+.sidebar {
+    margin-left: 1rem;
+    border-radius: 15px;
+    border: solid 1px;
+    border-color: rgba(250, 0, 117, 0.616);
+    height: 90%;
+    width: 57.2%;
+    background-color: rgb(86, 1, 48);
+}
