@@ -4,16 +4,16 @@ import styles from './Topbar.module.css'
 const Topbar = () => {
   return (
     <div className={styles.toptopbar}>
-        <h1 className={styles.name}>Boowe's portfolio</h1>
+        <h1 className={styles.name}>Boowe's Portfolio</h1>
         <div className={styles.useles}></div>
         <button className={styles.abt}>
-            <span>About</span>
+            <span> <a href="/About">About</a></span>
         </button>
         <button className={styles.port}>
-            <span>Portfolio</span>
+            <span><a href="/Portfolio">Portfolio</a></span>
         </button>
         <button className={styles.cont}>
-            <span>Contact</span>
+            <span><a href="/Contact">Contact</a></span>
         </button>
     </div>
   )
