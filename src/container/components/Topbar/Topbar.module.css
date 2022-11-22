@@ -1,18 +1,23 @@
 .toptopbar {
     font-family: monospace;
-    height: 5vw;
+    height: auto;
     width: 100vw;
     background-color: rgb(129, 19, 79);
     display: flex;
     align-items: center;
     gap: 5rem;
+    border-bottom: solid 1px;
+    border-color: rgba(250, 0, 117, 0.616);
 }
+
 
 .useles{
     width: 50vw;
 }
 
 .name {
+    border: solid 1px;
+    border-color: rgb(250, 0, 117);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,35 +25,38 @@
     height: 7vh;
     width: 16vw;
     border-radius: 5px;
-    background-color: rgb(100, 2, 56);
+    background-color: rgb(86, 1, 48);
 }
 
 .port {
     border-radius: 5px;
     font-size: large;
     font-family: monospace;
-    background-color: rgb(100, 2, 56);
-    border: 0;
+    background-color: rgb(86, 1, 48);
     height: 5vh;
     width: 5vw;
+    border: solid 1px;
+    border-color: rgb(250, 0, 117);
 }
 
 .abt {
     border-radius: 5px;
     font-size: large;
     font-family: monospace;
-    background-color: rgb(100, 2, 56);
-    border: 0;
+    background-color: rgb(86, 1, 48);
     height: 5vh;
     width: 5vw;
+    border: solid 1px;
+    border-color: rgb(250, 0, 117);
 }
 
 .cont {
     border-radius: 5px;
     font-size: large;
     font-family: monospace;
-    background-color: rgb(100, 2, 56);
-    border: 0;
+    background-color: rgb(86, 1, 48);
     height: 5vh;
     width: 5vw;
+    border: solid 1px;
+    border-color: rgba(250, 0, 117, 0.984);
 }

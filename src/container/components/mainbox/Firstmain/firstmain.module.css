@@ -1,0 +1,27 @@
+.main {
+    height: 89vh;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.content {
+    margin-right: 1rem;
+    border-radius: 15px;
+    border: solid 1px;
+    border-color: rgba(250, 0, 117, 0.616);
+    height: 90%;
+    width: 75%;
+    background-color: rgb(86, 1, 48);
+}
+
+.side {
+    margin-right: 6rem;
+    border-radius: 15px;
+    border: solid 1px;
+    border-color: rgba(250, 0, 117, 0.616);
+    background-color: rgb(86, 1, 48);
+    height: 90%;
+    width: 18%;
+}
