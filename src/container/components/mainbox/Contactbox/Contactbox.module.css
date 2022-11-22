@@ -1,22 +1,24 @@
 .main {
+    overflow: hidden;
     height: 89vh;
     width: 100vw;
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 19%;
+    position: fixed;
+    top: 40%;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 2rem;
+    margin-left: 1%;
     border-radius: 15px;
     border: solid 1px;
     border-color: rgba(250, 0, 117, 0.616);
-    height: 50%;
-    width: 20%;
+    height: 25%;
+    width: 8%;
     background-color: rgb(86, 1, 48);
 }
 
@@ -24,17 +26,5 @@
     margin-left: 5%;
 }
 
-.insta {
-    height: 100%;
-    width: 100%;
-}
 
-.sidebar {
-    margin-left: 1rem;
-    border-radius: 15px;
-    border: solid 1px;
-    border-color: rgba(250, 0, 117, 0.616);
-    height: 90%;
-    width: 57.2%;
-    background-color: rgb(86, 1, 48);
-}
+
