@@ -33,3 +33,26 @@
     height: 50%;
 }
 
+.picture {
+    border: solid 1px;
+    border-color: rgba(250, 0, 117, 0.616);
+    border-radius: 10px;
+    display: flex;
+    height: 95%;
+    width: 29%;
+    background-image: url('/whatsap.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.empt {
+    height: 100%;
+    width: 70%;
+}
+
+.posdiv {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}

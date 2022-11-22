@@ -24,12 +24,12 @@
     margin-left: 2vh;
     height: 7vh;
     width: 16vw;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: rgb(86, 1, 48);
 }
 
 .port {
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: large;
     font-family: monospace;
     background-color: rgb(86, 1, 48);
@@ -40,7 +40,7 @@
 }
 
 .abt {
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: large;
     font-family: monospace;
     background-color: rgb(86, 1, 48);
@@ -51,7 +51,7 @@
 }
 
 .cont {
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: large;
     font-family: monospace;
     background-color: rgb(86, 1, 48);
