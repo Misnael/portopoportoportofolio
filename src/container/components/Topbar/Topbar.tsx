@@ -4,7 +4,7 @@ import styles from './Topbar.module.css'
 const Topbar = () => {
   return (
     <div className={styles.toptopbar}>
-        <h1 className={styles.name}>Boowe's Portfolio</h1>
+        <h1 className={styles.name}><a href="/home">Boowe's Portfolio</a></h1>
         <div className={styles.useles}></div>
         <button className={styles.abt}>
             <span> <a href="/About">About</a></span>

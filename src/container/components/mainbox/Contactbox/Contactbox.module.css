@@ -4,17 +4,29 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 11%;
+    gap: 19%;
 }
 
 .content {
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
     border-radius: 15px;
     border: solid 1px;
     border-color: rgba(250, 0, 117, 0.616);
-    height: 90%;
+    height: 50%;
     width: 20%;
     background-color: rgb(86, 1, 48);
+}
+
+.list {
+    margin-left: 5%;
+}
+
+.insta {
+    height: 100%;
+    width: 100%;
 }
 
 .sidebar {
