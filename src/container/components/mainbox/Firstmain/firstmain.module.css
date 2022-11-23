@@ -1,35 +1,72 @@
+
 .main {
     height: 89vh;
     width: 100vw;
     display: flex;
     justify-content: right;
     align-items: center;
+    background-image: linear-gradient( rgba(113, 2, 43, 0.685), rgba(107, 7, 77, 0.748) ), url(./../../../../../public/giphy1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 1rem;
     border-radius: 10px;
     border: solid 1px;
-    border-color: rgba(250, 0, 117, 0.616);
+    border-color: rgb(250, 0, 117);
     height: 90%;
     width: 75%;
-    background-color: rgb(86, 1, 48);
+    background-color: rgba(119, 2, 59, 0.595);
 }
 
 .side {
-    display: flex;
-    justify-content: right;
     margin-right: 2%;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     border: solid 1px;
-    border-color: rgba(250, 0, 117, 0.616);
-    background-color: rgb(86, 1, 48);
+    border-color: rgb(250, 0, 117);
+    background-color: rgba(119, 2, 59, 0.595);
     height: 90%;
     width: 21.1%;
 }
 
 .text{
+    animation: blink 2s linear infinite;
+    font-family: monospace;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+}
+@keyframes blink {
+    50% {
+        opacity: 0
+    }
+}
+
+.title {
+    display: flex;
+    justify-content: center;
     width: 100%;
+    padding: 3%;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.projects {
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: center;
     height: 50%;
+    width: 100%;
 }
 

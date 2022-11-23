@@ -5,13 +5,25 @@ const firstmain = () => {
   return (
     <div className={styles.main}>
         <div className={styles.side}>
-          
+          <div className={styles.title}>My Projects!</div>
+            <div className={styles.projects}>
+              <li></li>
+              <p></p>
+              <li></li>
+              <p></p>
+              <li></li>
+              <p></p>
+              <li></li>
+              <p></p>
+              <li></li>
+              <p></p>
+              <li></li>
+              <p></p>
+            </div>
         </div>
         <div className={styles.content}>
-          <div className={styles.text}></div>
-          <div className={styles.posdiv}>
-            <div className={styles.empt}></div>
-            <div className={styles.picture}></div>
+          <div className={styles.text}>
+            <span>Boowe The Half-Stack Developer</span>
           </div>
         </div>
     </div>

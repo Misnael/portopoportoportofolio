@@ -2,7 +2,7 @@
     font-family: monospace;
     height: auto;
     width: 100vw;
-    background-color: rgb(129, 19, 79);
+    background-color: rgba(119, 2, 58, 0.988);
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -12,7 +12,7 @@
 
 
 .useles{
-    width: 50vw;
+    width: 48vw;
 }
 
 .name {
@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 2vh;
+    margin-left: 3.5%;
     height: 7vh;
     width: 16vw;
     border-radius: 10px;

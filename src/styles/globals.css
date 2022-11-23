@@ -21,6 +21,7 @@ a {
   }
   body {
     color: white;
-    background-color: rgba(83, 1, 46, 0.306);
+    background-image: url('/public/BG.gif');
+    background-size: cover;
   }
 }
