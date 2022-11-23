@@ -1,12 +1,14 @@
 .main {
     overflow: hidden;
-    height: 89vh;
-    width: 100vw;
     display: flex;
     justify-content: left;
     align-items: center;
-    position: fixed;
-    top: 40%;
+    height: 89vh;
+    width: 100vw; 
+    background-image: linear-gradient( rgba(113, 2, 43, 0.685), rgba(107, 7, 77, 0.748) ), url(./../../../../../public/giphy1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .content {

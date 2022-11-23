@@ -1,0 +1,25 @@
+.main {
+    height: 89vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgba(113, 2, 43, 0.685), rgba(107, 7, 77, 0.748) ), url(./../../../../public/giphy1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgb(250, 0, 117);
+    height: 90%;
+    width: 75%;
+    background-color: rgba(119, 2, 59, 0.595);
+}

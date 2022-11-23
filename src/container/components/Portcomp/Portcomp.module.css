@@ -4,6 +4,10 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    background-image: linear-gradient( rgba(113, 2, 43, 0.685), rgba(107, 7, 77, 0.748) ), url(./../../../..//public/giphy1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .content {
@@ -13,7 +17,7 @@
     border-color: rgba(250, 0, 117, 0.616);
     height: 90%;
     width: 75%;
-    background-color: rgb(86, 1, 48);
+    background-color: rgba(86, 1, 48, 0.564);
 }
 
 .side {
@@ -23,7 +27,7 @@
     border-radius: 10px;
     border: solid 1px;
     border-color: rgba(250, 0, 117, 0.616);
-    background-color: rgb(86, 1, 48);
+    background-color: rgba(86, 1, 48, 0.441);
     height: 90%;
     width: 21.1%;
 }
