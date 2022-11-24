@@ -23,3 +23,10 @@
     width: 75%;
     background-color: rgba(119, 2, 59, 0.595);
 }
+
+.text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

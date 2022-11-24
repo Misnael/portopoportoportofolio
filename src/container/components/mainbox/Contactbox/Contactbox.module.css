@@ -20,13 +20,37 @@
     border: solid 1px;
     border-color: rgba(250, 0, 117, 0.616);
     height: 25%;
-    width: 8%;
+    width: 14%;
     background-color: rgb(86, 1, 48);
 }
 
 .list {
     margin-left: 5%;
 }
+
+
+@keyframes discord {
+	0% {height:70px; width:250px;}
+	 100% {height:500px;width:350px;}
+}
+@keyframes discord-c {
+	0% {height:500px;width:350px;}
+    100% {height:70px; width:250px;}
+}
+
+.discord {
+    animation-name: discord-c;
+	animation-duration: 2s;
+	animation-play-state: pause;
+	display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 116.5%;
+    align-items: center;
+    height:70px;
+	width:250px;
+}
+
 
 
 
