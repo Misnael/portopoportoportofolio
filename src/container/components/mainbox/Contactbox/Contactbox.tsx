@@ -19,9 +19,7 @@ const Contactbox = () => {
     
         <div className={styles.around}>
           <div className={styles.discord}>
-          <iframe src="https://discord.com/widget?id=864283982291664917&theme=dark" width="350" height="500"
-           
-           sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            
           </div>
         </div>
     </div>
