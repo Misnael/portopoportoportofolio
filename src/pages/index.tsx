@@ -4,11 +4,15 @@ import Firstmain from '../container/components/mainbox/Firstmain/Firstmain'
 
 export default function Home() {
   return (
-   <>
-  
+   
+  <div>
+
     <Topbar />
     <Firstmain />
+    
+  </div>
+
    
-   </>
+   
   )
 }

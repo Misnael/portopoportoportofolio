@@ -23,7 +23,7 @@ const firstmain = () => {
         </div>
         <div className={styles.content}>
           <div className={styles.text}>
-            <span>Boowe The Half-Stack Developer</span>
+            <span className='color-red-500'>Boowe The Half-Stack Developer</span>
           </div>
         </div>
     </div>

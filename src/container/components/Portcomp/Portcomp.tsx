@@ -11,6 +11,7 @@ const Portcomp = () => {
         <div className={styles.text}></div>
         <div className={styles.posdiv}>
             <div className={styles.empt}></div>
+            <div className={styles.picture2}></div>
             <div className={styles.picture}></div>
         </div>
         </div>

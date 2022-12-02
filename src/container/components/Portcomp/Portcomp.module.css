@@ -50,6 +50,20 @@
     background-repeat: no-repeat;
 }
 
+
+.picture2 {
+    border: solid 1px;
+    border-color: rgba(250, 0, 117, 0.616);
+    border-radius: 10px;
+    display: flex;
+    height: 95%;
+    width: 29%;
+    background-image: url('/3.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .empt {
     height: 100%;
     width: 70%;
